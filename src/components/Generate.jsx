@@ -86,7 +86,7 @@ export default function Generate() {
             Generate Recipes!
           </h2>
           <textarea
-            placeholder="Type here"
+            placeholder="Eg : Strawberry Cake for 2 people"
             value={prompt} // Controlled input
             onChange={(e) => setPrompt(e.target.value)}
             className="w-full h-36 p-4 rounded-3xl bg-[#CBC5BC] text-white text-lg outline-none"
